@@ -1,0 +1,152 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey there",
+        "Good morning",
+        "Good afternoon"
+      ],
+      "responses": [
+        "Hello! Welcome to our hospital. How can I assist you today?",
+        "Hi there! How may I help you?",
+        "Good day! How can I assist you?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later"],
+      "responses": [
+        "Goodbye! Take care.",
+        "Have a great day! Goodbye.",
+        "See you later! Feel free to return anytime."
+      ]
+    },
+    
+    
+    
+    
+    {
+      "tag": "emergency",
+      "patterns": [
+        "What should I do in case of emergency?",
+        "Emergency procedures",
+        "Emergency contact"
+      ],
+      "responses": [
+        "In case of emergency, please dial 911 immediately. Our hospital's emergency department is available 24/7 to assist you.",
+        "For emergencies, dial 911. Our hospital's emergency department is always ready to provide immediate assistance."
+      ]
+    },
+    
+    {
+      "tag": "insurances",
+      "patterns": [
+        "insurance",
+        "Which insurance plans do you accept",
+        "Is my insurance accepted"
+      ],
+      "responses": [
+        "Yes, we accept most major insurance plans including [list of insurance plans]. Please provide your insurance details, and we can verify coverage for you.",
+        "We accept a wide range of insurance plans including [list of insurance plans]. Feel free to provide your insurance information, and we can assist you with coverage details."
+      ]
+    },
+    {
+      "tag": "parkingssss",
+      "patterns": [
+        "Is there parking available?",
+        "Where can I park my car?",
+        "Parking information"
+      ],
+      "responses": [
+        "Yes, we have parking facilities available for patients and visitors. Our staff can guide you to the nearest parking area upon arrival. Additionally, we offer valet parking services for your convenience.",
+        "Parking is available onsite for patients and visitors. Look for signs directing you to the parking area upon arrival. Valet parking services are also available."
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "What facilities do you offer?",
+        "Tell me about your hospital amenities",
+        "Facility information"
+      ],
+      "responses": [
+        "Our hospital provides various facilities including a pharmacy, cafeteria, laboratory services, imaging center, physical therapy, emergency department, intensive care unit, and more for your convenience.",
+        "We offer a range of amenities including a pharmacy, cafeteria, laboratory services, imaging center, physical therapy, emergency department, intensive care unit, and more to enhance your hospital experience."
+      ]
+    },
+    {
+      "tag": "medical_records",
+      "patterns": [
+        "How can I access my medical records?",
+        "Medical records request process",
+        "Accessing health information"
+      ],
+      "responses": [
+        "You can request access to your medical records through our patient portal, by filling out a medical records request form, or by contacting our medical records department. We ensure strict confidentiality and security of your health information.",
+        "To access your medical records, please log in to our patient portal, submit a request through our website, or contact our medical records department for assistance. We prioritize the privacy and security of your health information."
+      ]
+    },
+    {
+      "tag": "donations",
+      "patterns": [
+        "How can I donate to the hospital?",
+        "Donation process",
+        "Supporting the hospital"
+      ],
+      "responses": [
+        "Thank you for your generosity! You can make a donation through our website, by contacting our fundraising department, or by visiting our hospital and speaking with our staff.",
+        "We appreciate your willingness to support our hospital! Donations can be made online through our website, by phone, or in person at our hospital. Your contributions make a meaningful difference in our community."
+      ]
+    },
+    {
+      "tag": "volunteering",
+      "patterns": [
+        "Can I volunteer at the hospital?",
+        "Volunteer opportunities",
+        "How to become a volunteer"
+      ],
+      "responses": [
+        "Yes, we welcome volunteers to join our team! You can learn more about volunteer opportunities and apply through our website or by contacting our volunteer coordinator.",
+        "We greatly appreciate volunteers who contribute their time and skills to our hospital. If you're interested in volunteering, please visit our website or reach out to our volunteer coordinator for more information."
+      ]
+    },
+    
+    
+    {
+      "tag": "hospital_info",
+      "patterns": ["What are your visiting hours?", "When can I visit?", "What time does the hospital open/close?", "Operating hours", "Hours of operation", "Are you open on weekends?", "Do you operate on holidays?", "What are your holiday hours?", "Are you open 24/7?", "Can I visit anytime?", "What is your address?", "Where are you located?", "Do you have parking?", "Is there valet parking available?", "How do I get to the hospital?"],
+      "responses": ["Our hospital is open every day from 8 AM to 8 PM.", "Visiting hours are from 8 AM to 8 PM, seven days a week.", "We are open on weekends and holidays. Our operating hours are from 8 AM to 8 PM.", "Yes, we are open 24/7 for emergencies. For regular visits, our hours are from 8 AM to 8 PM.", "You can visit us anytime during our operating hours, which are from 8 AM to 8 PM, seven days a week.", "Our hospital is located at [hospital address]. We have parking facilities available for patients and visitors. Valet parking is also available upon request.", "Our hospital is conveniently located at [hospital address]. You can reach us by [directions]. We have ample parking space, including valet parking services."],
+      "context_set": ""
+    },
+    
+    {
+      "tag" : "branches",
+      "patterns" :[
+        "branches",
+        "branch",
+        "What are the branches available",
+        "Which branches are available"
+      ],
+      "responses" :[
+        "We Have various departments like CSE,ECE,CIVIL,MECHANICAL",
+        "various departments like CSE,ECE,CIVIL,MECHANICAL",
+        "departments like CSE,ECE,CIVIL,MECHANICAL",
+        "CSE,ECE,CIVIL,MECHANICAL"
+
+      ]
+    }
+  ]
+ 
+}
+
+
+
+
+
+
+
+
+
